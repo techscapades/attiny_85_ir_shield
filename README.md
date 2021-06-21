@@ -14,7 +14,6 @@ make sure you download it and place it into your 'libraries' folder in arduino.
 
 
 
-
 **How to use the code**
 1. By default "#define DEBUG 1" is stated, this is used to find out IR codes from IR remotes
    ### ENSURE ITS SET TO 0 AFTER YOU'RE DONE OR IR CODES WILL BE PRINTED OUT
@@ -25,7 +24,8 @@ make sure you download it and place it into your 'libraries' folder in arduino.
    want it to execute from: https://github.com/adafruit/Adafruit-Trinket-USB/blob/master/TrinketHidCombo/TrinketHidCombo.h
    note that you can also choose to execute a bunch of keycodes as well, explore :D
 6. In runPushButtonCmd() function, run a command or list of commands when the side push button is pressed, I use it
-   to automate the series of keypresses I execute the most
+   to automate the series of keypresses I execute the most 
+   ### YOU MAY NEED TO INCLUE DELAYS INBETWEEN KEYPRESSES IF YOUR SYSTEM DOESN'T DETECT THEM, USE "ms_delay(250)" for example
 
 **If you want to change the name of the device, go to:**
 1. Arduino>libraries>TrinketHidCombo
