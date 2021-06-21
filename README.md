@@ -13,7 +13,7 @@ attiny 85 ir shield PCB + code + how to use code
 3. Right angle push button switch (https://www.aliexpress.com/item/4000864377668.html) //I got the 6x6x5 version
 4. Toggle switch (https://www.aliexpress.com/item/32989785276.html?algo_pvid=2afdb9c4-8a46-46d0-b99b-37b43d753335&algo_exp_id=2afdb9c4-8a46-46d0-b99b-37b43d753335-2)
    //I bent the legs at 90 degrees before soldering
-5. IR Shield (gerber files in repo, use JLCPCB to manufacture cause theyre really fast)
+5. IR Shield (gerber files in repo, I used JLCPCB to manufacture cause they're really fast and the PCBs have good quality)
 6. Male and female 2.54mm header pins
 
 **Notes:**
