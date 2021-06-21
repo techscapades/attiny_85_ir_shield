@@ -28,8 +28,8 @@ attiny 85 ir shield PCB + code + how to use code
 
 
 **Arduino IDE pre-requisites**
-1. This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
-   make sure you download it and place it into your 'libraries' folder in arduino
+1. This project uses this library: https://github.com/adafruit/Adafruit-Trinket-USB
+   make sure you download it, extract it, and place it into your 'libraries' folder in arduino
 2. Make sure you have the Digispark boards installed, if not:
    (a) File > Prefences > Additional Boards Manager URLs
    (b) paste: http://digistump.com/package_digistump_index.json
