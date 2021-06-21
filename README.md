@@ -5,7 +5,7 @@ attiny 85 ir shield PCB + code + how to use code
 ![attiny85_side2](https://user-images.githubusercontent.com/76870663/122782990-c174d280-d2e3-11eb-9bce-d40834fc5eb4.jpg)
 
 
-**BILL OF MATERIALS**
+**BILL OF MATERIALS:**
 1. AT TINY 85 (https://www.aliexpress.com/item/606895785.html) //I recommend getting from alibaba instead
 2. VS1838B (https://www.aliexpress.com/item/32452383491.html) //**pinout**: https://buyhere22.com/image/cache/data/products/236/236159/ir-vs1838b-pinout-800x800.png
 3. Right angle push button switch (https://www.aliexpress.com/item/4000864377668.html) //I got the 6x6x5 version
@@ -22,6 +22,7 @@ attiny 85 ir shield PCB + code + how to use code
    [] Toggle switch back --> programming mode (can also be used to disable the at tiny 85)
    [] Toggle switch front --> operation mode
 3. ### The PCB design and Gerber files are copyrighted 
+
 
 **Arduino IDE pre-requisites**
 1.This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
