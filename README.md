@@ -1,12 +1,9 @@
 # attiny_85_ir_shield
-attiny 85 ir shield PCB + code 
+attiny 85 ir shield PCB + code + how to use code
 
 ![attiny85_side1](https://user-images.githubusercontent.com/76870663/122782881-a99d4e80-d2e3-11eb-9753-2a9bdd976d89.jpg)
 ![attiny85_side2](https://user-images.githubusercontent.com/76870663/122782990-c174d280-d2e3-11eb-9bce-d40834fc5eb4.jpg)
 
-
-This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
-make sure you download it and place it into your 'libraries' folder in arduino.
 
 **BILL OF MATERIALS**
 1. AT TINY 85 (https://www.aliexpress.com/item/606895785.html) //I recommend getting from alibaba instead
@@ -15,9 +12,21 @@ make sure you download it and place it into your 'libraries' folder in arduino.
 4. Toggle switch (https://www.aliexpress.com/item/32989785276.html?algo_pvid=2afdb9c4-8a46-46d0-b99b-37b43d753335&algo_exp_id=2afdb9c4-8a46-46d0-b99b-37b43d753335-2)
    //I bent the legs at 90 degrees before soldering
 5. IR Shield (gerber files in repo, use JLCPCB to manufacture cause theyre really fast)
+6. Male and female 2.54mm header pins
 
+**Notes:**
+1. I chose to solder the right angle push button switch on the bottom side of the PCB 
+   because its easier to press, but you can do it on the top as well
+2. The toggle switch allows you to toggle between pogramming mode and normal operation 
+   mode so you dont have to keep plugging and unplugging your attiny 85,
+   [] Toggle switch back --> programming mode (can also be used to disable the at tiny 85)
+   [] Toggle switch front --> operation mode
+3. ### The PCB design and Gerber files are copyrighted 
 
-
+**Arduino IDE pre-requisites**
+1.This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
+make sure you download it and place it into your 'libraries' folder in arduino.
+Ensure
 
 **How to use the code**
 1. By default "#define DEBUG 1" is stated, this is used to find out IR codes from IR remotes
