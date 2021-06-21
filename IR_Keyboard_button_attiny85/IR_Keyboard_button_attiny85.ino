@@ -22,7 +22,8 @@ You should have received a copy of the GNU Lesser General Public
 License along with TrinketHidCombo. If not, see
 <http://www.gnu.org/licenses/>.
 
-Code remixed from https://www.instructables.com/Digispark-IR-Receiver-Keyboard/ 
+Oiginal Code from https://www.instructables.com/Digispark-IR-Receiver-Keyboard/ 
+Remixed by @techscapades: https://github.com/techscapades/attiny_85_ir_shield
 
 */
 
