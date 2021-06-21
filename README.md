@@ -31,11 +31,11 @@ attiny 85 ir shield PCB + code + how to use code
 1. This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
    make sure you download it and place it into your 'libraries' folder in arduino
 2. Make sure you have the Digispark boards installed, if not:
-   a. File > Prefences > Additional Boards Manager URLs
-   b. paste: http://digistump.com/package_digistump_index.json
-   c. Tools > Boards Manager
-   d. Search: digispark and install "Digistump AVR Boards"
-   e. select board: Tools > Board > Digistump AVR Boards > Digispark(Default - 16.5mhz)
+   (a) File > Prefences > Additional Boards Manager URLs
+   (b) paste: http://digistump.com/package_digistump_index.json
+   (c) Tools > Boards Manager
+   (d) Search: digispark and install "Digistump AVR Boards"
+   (e) select board: Tools > Board > Digistump AVR Boards > Digispark(Default - 16.5mhz)
    
 
 **How to use the code**
@@ -50,6 +50,7 @@ attiny 85 ir shield PCB + code + how to use code
 6. In runPushButtonCmd() function, run a command or list of commands when the side push button is pressed, I use it
    to automate the series of keypresses I execute the most 
    ### YOU MAY NEED TO INCLUDE DELAYS INBETWEEN KEYPRESSES IF YOUR SYSTEM DOESN'T DETECT THEM, USE "ms_delay(250)" for example
+
 
 **If you want to change the name of the device, go to:**
 1. Arduino>libraries>TrinketHidCombo
