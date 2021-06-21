@@ -6,7 +6,7 @@ make sure you download it and place it into your 'libraries' folder in arduino.
 
 **How to use the code**
 1. By default "#define DEBUG 1" is stated, this is used to find out IR codes from IR remotes
-   ### ENSURE ITS SET TO 0 AFTER YOU'RE DONE OR IR CODES WILL BE PRINTED OUT###
+   ### ENSURE ITS SET TO 0 AFTER YOU'RE DONE OR IR CODES WILL BE PRINTED OUT
 2. Open notepad
 3. Point you IR remote at the reciever and record what IR code is shown after you press the button
 4. #define your_button your_button_IR_code
