@@ -21,8 +21,8 @@ attiny 85 ir shield PCB + code + how to use code
    because its easier to press, but you can do it on the top as well
 2. The toggle switch allows you to toggle between pogramming mode and normal operation 
    mode so you dont have to keep plugging and unplugging your attiny 85,
-   [] Toggle switch back --> programming mode (can also be used to disable the at tiny 85)
-   [] Toggle switch front --> operation mode
+   [ Toggle switch back --> programming mode (can also be used to disable the at tiny 85)]
+   [Toggle switch front --> operation mode]
 3. ### The PCB design and Gerber files are copyrighted 
 
 
