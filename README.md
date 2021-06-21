@@ -4,6 +4,17 @@ attiny 85 ir shield PCB + code
 This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
 make sure you download it and place it into your 'libraries' folder in arduino.
 
+**BILL OF MATERIALS**
+1. AT TINY 85 (https://www.aliexpress.com/item/606895785.html) //I recommend getting from alibaba instead
+2. VS1838B (https://www.aliexpress.com/item/32452383491.html) //**pinout**: https://buyhere22.com/image/cache/data/products/236/236159/ir-vs1838b-pinout-800x800.png
+3. Right angle push button switch (https://www.aliexpress.com/item/4000864377668.html) //I got the 6x6x5 version
+4. Toggle switch (https://www.aliexpress.com/item/32989785276.html?algo_pvid=2afdb9c4-8a46-46d0-b99b-37b43d753335&algo_exp_id=2afdb9c4-8a46-46d0-b99b-37b43d753335-2)
+   //I bent the legs at 90 degrees before soldering
+5. IR Shield (gerber files in repo, use JLCPCB to manufacture cause theyre really fast)
+
+
+
+
 **How to use the code**
 1. By default "#define DEBUG 1" is stated, this is used to find out IR codes from IR remotes
    ### ENSURE ITS SET TO 0 AFTER YOU'RE DONE OR IR CODES WILL BE PRINTED OUT
