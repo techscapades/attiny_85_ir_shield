@@ -1,6 +1,10 @@
 # attiny_85_ir_shield
 attiny 85 ir shield PCB + code 
 
+![attiny85_side1](https://user-images.githubusercontent.com/76870663/122782881-a99d4e80-d2e3-11eb-9753-2a9bdd976d89.jpg)
+![attiny85_side2](https://user-images.githubusercontent.com/76870663/122782990-c174d280-d2e3-11eb-9bce-d40834fc5eb4.jpg)
+
+
 This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
 make sure you download it and place it into your 'libraries' folder in arduino.
 
@@ -11,6 +15,7 @@ make sure you download it and place it into your 'libraries' folder in arduino.
 4. Toggle switch (https://www.aliexpress.com/item/32989785276.html?algo_pvid=2afdb9c4-8a46-46d0-b99b-37b43d753335&algo_exp_id=2afdb9c4-8a46-46d0-b99b-37b43d753335-2)
    //I bent the legs at 90 degrees before soldering
 5. IR Shield (gerber files in repo, use JLCPCB to manufacture cause theyre really fast)
+
 
 
 
