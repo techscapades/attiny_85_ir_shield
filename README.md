@@ -1,5 +1,6 @@
 # attiny_85_ir_shield
 attiny 85 ir shield PCB + code + how to use code
+follow me on instagram @techscapades for more cool projects :D
 
 ![attiny85_side1](https://user-images.githubusercontent.com/76870663/122782881-a99d4e80-d2e3-11eb-9753-2a9bdd976d89.jpg)
 ![attiny85_side2](https://user-images.githubusercontent.com/76870663/122782990-c174d280-d2e3-11eb-9bce-d40834fc5eb4.jpg)
@@ -23,6 +24,7 @@ attiny 85 ir shield PCB + code + how to use code
    [] Toggle switch front --> operation mode
 3. ### The PCB design and Gerber files are copyrighted 
 
+###
 
 **Arduino IDE pre-requisites**
 1.This project uses this library: https://github.com/techscapades/Adafruit-Trinket-USB 
