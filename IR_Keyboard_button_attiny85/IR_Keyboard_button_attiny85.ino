@@ -108,7 +108,7 @@ void runPushButtonCmd() { //your custom command which will execute when push but
   TrinketHidCombo.pressKey(0, KEYCODE_ENTER);
 
   ms_delay(300); //needed for HID to stabilise
-  TrinketHidCombo.print("54941"); //your pincode
+  TrinketHidCombo.print("hello world UwU"); //any string you want typed
 
   TrinketHidCombo.pressKey(0, 0); //to prevent the key from pressing repeatedly
   ms_delay(REPEAT_DELAY);
