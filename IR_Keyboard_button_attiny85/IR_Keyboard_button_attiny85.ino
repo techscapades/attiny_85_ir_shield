@@ -39,7 +39,7 @@ bool complete = false;
 // **** TSOP is connected to port PB2 **** //////
 #define REPEAT_DELAY 220
 
-//Set to 0 after finding your codes, I recommend opening notepad 
+//Default is 1, set to 0 after finding your codes, I recommend opening notepad because Serial isnt available
 #define DEBUG 1
 
 //Specify your remote codes here: {point your remote at the IR reciever on the board to find codes}
